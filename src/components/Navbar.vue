@@ -1,48 +1,24 @@
 <template>
-    <section class="ftco-section">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-6 text-center mb-5">
-                    <h2 class="heading-section">Website menu #05</h2>
-                </div>
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+        <div class="container container-fluid pt-3">
+            <a class="navbar-brand" href="/">Employment Management Portal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <RouterLink :class="'nav-link'" to="/">Home</RouterLink>
+                    </li>
+                    <li class="nav-item">
+                        <RouterLink :class="'nav-link'" to="/departments">Departments</RouterLink>
+                    </li>
+                    <li class="nav-item">
+                        <RouterLink :class="'nav-link'" to="/employees">Employees</RouterLink>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg ftco_navbar ftco-navbar-light" id="ftco-navbar">
-                <div class="container">
-                    <a class="navbar-brand" href="index.html">Logo</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
-                        aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="fa fa-bars"></span> Menu
-                    </button>
-                    <div class="collapse navbar-collapse" id="ftco-nav">
-                        <ul class="navbar-nav ml-auto mr-md-3">
-                            <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Accessories</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Products</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                            <li class="dropdown nav-item d-md-flex align-items-center">
-                                <a href="#"
-                                    class="dropdown-toggle nav-link d-flex align-items-center justify-content-center icon-cart p-0"
-                                    id="dropdown04" data-toggle="dropdown" aria-expanded="false">
-                                    <i class="fa fa-shopping-cart"></i>
-                                    <b class="caret"></b>
-                                </a>
-                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown04">
-                                    <a href="#" class="dropdown-item">Action</a>
-                                    <a href="#" class="dropdown-item">Another action</a>
-                                    <a href="#" class="dropdown-item">Something else here</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a href="#" class="dropdown-item">Separated link</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a href="#" class="dropdown-item">One more separated link</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-
-        </div>
-</section></template>
+    </nav>
+</template>
