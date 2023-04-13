@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <main>
-    <div class="container">
+  <section>
+    <div class="container pt-5 pb-5">
       <h1>This is an Department page</h1>
     </div>
-  </main>
+  </section>
 </template>
