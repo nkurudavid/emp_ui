@@ -1,19 +1,24 @@
 <script>
 import axios from 'axios'
+import variables from '@/assets/variables/variables';
 
 export default {
-  name: 'departments',
+  name: 'Departments',
   data() {
     return {
-      departments: []
+      departments:[]
     }
   },
+  mounted() {
+    this.getDepartments();
+  },
   methods: {
-    refreshData() {
-      axios.get(variables.API_URL+"departments").then(response => this.departments = response.data);
-    },
-    mounted() {
-      this.refreshData();
+    getDepartments() {
+      axios.get(variables.API_URL+'departments').then(response => {
+        this.departments = response.data
+      }).catch(error => {
+        console.error('Error fetching departments:', error)
+      })
     },
   }
 }
