@@ -1,11 +1,20 @@
-<script setup>
-// import TheWelcome from '../components/TheWelcome.vue'
+<script>
+import axios from 'axios'
+
+export default {
+  name: 'employees',
+  data() {
+    return {
+      employees: []
+    }
+  }
+}
 </script>
 
 <template>
-  <section>
+  <section class="bg-light">
     <div class="container pt-5 pb-5">
-      <h1>This is an Employment page</h1>
+      <h1 class="text-success">Employees</h1>
     </div>
   </section>
 </template>

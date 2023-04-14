@@ -7,8 +7,8 @@
                     <h6>Quick Links</h6>
                     <ul class="nav flex-column">
                         <li class="nav-item mb-2"><RouterLink to="/" :class="'nav-link p-0 text-secondary'">Home</RouterLink></li>
-                        <li class="nav-item mb-2"><RouterLink to="/departments" :class="'nav-link p-0 text-secondary'">Features</RouterLink></li>
-                        <li class="nav-item mb-2"><RouterLink to="/employees" :class="'nav-link p-0 text-secondary'">Pricing</RouterLink></li>
+                        <li class="nav-item mb-2"><RouterLink to="/departments" :class="'nav-link p-0 text-secondary'">Departments</RouterLink></li>
+                        <li class="nav-item mb-2"><RouterLink to="/employees" :class="'nav-link p-0 text-secondary'">Employees</RouterLink></li>
                     </ul>
                 </div>
 

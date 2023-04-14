@@ -3,9 +3,9 @@
 </script>
 
 <template>
-  <section>
+  <section class="bg-light">
     <div class="container pt-5 pb-5">
-      <h1>This is an Home page</h1>
+      <h1 class="text-success">This is an Home page</h1>
     </div>
   </section>
 </template>
