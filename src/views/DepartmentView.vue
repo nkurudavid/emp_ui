@@ -70,6 +70,14 @@ export default {
 <template>
   <section class="bg-light">
     <div class="container pt-5 pb-5">
+      
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb float-end">
+          <li class="breadcrumb-item"><RouterLink to="/">Home</RouterLink></li>
+          <li class="breadcrumb-item active" aria-current="page">Departments</li>
+        </ol>
+      </nav>
+
       <h1 class="text-success">Department</h1>
       <div class="row">
         <div class="table-responsive">
