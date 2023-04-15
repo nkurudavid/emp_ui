@@ -136,12 +136,12 @@ export default {
       </ol>
     </nav>
 
-      <h1 class="text-success">Employees</h1>
+      <h1 class="text-primary">Employees</h1>
       <div class="row">
         <div class="table-responsive">
             <button 
               type="button" 
-              class="btn btn-sm btn-success float-end" 
+              class="btn btn-sm btn-info float-end" 
               data-bs-toggle="modal" 
               data-bs-target="#formModal" 
               @click="newClick()"
@@ -186,7 +186,7 @@ export default {
       <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered modal-lg">
           <div class="modal-content">
-            <div class="modal-header">
+            <div class="modal-header bg-info">
               <h1 class="modal-title fs-5 text-dark" id="formModalLabel">{{ modelTitle }}</h1>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>

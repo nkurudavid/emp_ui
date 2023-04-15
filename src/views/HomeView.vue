@@ -37,7 +37,7 @@ export default {
       </ol>
     </nav>
 
-      <h1 class="text-success">Management</h1>
+      <h1 class="text-primary">Management</h1>
       <hr>
       <div class="row mt-5 mb-5">
         <div class="col-md-4">

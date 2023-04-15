@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
         <div class="container container-fluid pt-3">
             <a class="navbar-brand" href="/">Employment Management Portal</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
